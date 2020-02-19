@@ -1,0 +1,14 @@
+[
+  { 
+    "name": "github",
+    "url": "https://github.com"
+  },
+  {
+    "name": "google",
+    "url": "https://www.google.com"
+  },
+  {
+    "name": "jq",
+    "url": "https://stedolan.github.io/jq"
+  }
+]
