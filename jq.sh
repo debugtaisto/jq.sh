@@ -36,5 +36,5 @@ function jqarg() {
   for a in $(jqdo "to_entries|map(\"--\(.key) \(.value|tostring)\")|.[]"); do
     args=$args" "$a
   done
-  declare -g $1=$args
+  declare -g $1="$args"
 }

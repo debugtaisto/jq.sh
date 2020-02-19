@@ -1,14 +1,23 @@
 [
   { 
     "name": "github",
-    "url": "https://github.com"
+    "url": "https://github.com",
+    "args": {
+      "header": "ping=pong"
+    }
   },
   {
     "name": "google",
-    "url": "https://www.google.com"
+    "url": "https://www.google.com",
+    "args": {
+      "header": "ding=dong"
+    }
   },
   {
     "name": "jq",
-    "url": "https://stedolan.github.io/jq"
+    "url": "https://stedolan.github.io/jq",
+    "args": {
+      "header": "foo=bar"
+    }    
   }
 ]
